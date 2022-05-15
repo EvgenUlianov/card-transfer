@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  app1:
+    image: 'cardtransfer:latest'
+    ports:
+      - '5500:5500'
+    container_name: 'cardtransfer'
+
